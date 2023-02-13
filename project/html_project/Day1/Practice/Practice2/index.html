@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Project</title>
+  </head>
+      <style>
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: auto;
+        margin-top: 150px;
+        height: auto;
+        width: 900px;
+      }
+      th,
+      td {
+        border-collapse: collapse;
+        border: 1px solid black;
+        padding: 5px 9px;
+      }
+      .header td,.spi {
+        font-weight: bold;
+      }
+      caption{
+        color: white;
+      }
+    </style>
+  <body>
+    <div id="app">
+      <div class="grid-container">
+        <div class="navbar item1">
+          <div class="logo">
+            <img
+              src="../../../../public/radix.png"
+              alt="radix_logo"
+              srcset=""
+            />
+          </div>
+          <div class="nav_menu">
+            <p>
+              <a href="../../../index.html">HTML</a>
+            </p>
+            <p><a href="../../../../css_project/index.html">CSS</a></p>
+            <p><a href="#bootstrap">Bootstrap</a></p>
+            <p><a href="#javascript">JavaScript</a></p>
+            <p><a href="#jquery">JQuery</a></p>
+            <p><a href="#mini_project">Mini Project</a></p>
+            <p><a href="#sql">SQL</a></p>
+          </div>
+        </div>
+        <div class="middle">
+          <div class="menu">
+            <ul>
+              <li>Day 3</li>
+              <ul type="circle">
+                <li>Assignment</li>
+                <ul type="square">
+                  <li>
+                    <a href="../../Assignments/Assignment1/index.html"
+                      >Assignment 1</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../../Assignments/Assignment2/index.html"
+                      >Assignment 2</a
+                    >
+                  </li>
+                </ul>
+                <li>Practice</li>
+                <ul type="square">
+                  <li>
+                    <a href="../../Practice/Practice1/index.html">Practice 1</a>
+                  </li>
+                  <li>
+                    <a href="../../Practice/Practice2/index.html">Practice 2</a>
+                  </li>
+                </ul>
+              </ul>
+            </ul>
+          </div>
+          <div class="main" style="margin-left: 10%;">
+            <table>
+                <caption>report card</caption>
+                <tr>
+                <th scope="col" colspan="6">Report Card</th>
+                </tr>
+                <tr>
+                <td colspan="1">Name</td>
+                <td colspan="4">Chovatiya Vismay</td>
+                </tr>
+                <tr>
+                <td colspan="1">Roll No</td>
+                <td colspan="4">190040107009</td>
+                </tr>
+                <tr>
+                <td colspan="1">Year of Passing</td>
+                <td colspan="4">2023</td>
+                </tr>
+
+                <tr class="header">
+                <td>Subject Name</td>
+                <td>Thoery Marks</td>
+                <td>Practical Marks</td>
+                <td>Subject Grade</td>
+                </tr>
+                <tr>
+                <td>Database Management system</td>
+                <td>50</td>
+                <td>55</td>
+                <td>BA</td>
+                </tr>
+                <tr>
+                <td>Computer Network</td>
+                <td>71</td>
+                <td>60</td>
+                <td>B</td>
+                </tr>
+                <tr>
+                <td>Operating System</td>
+                <td>60</td>
+                <td>65</td>
+                <td>B</td>
+                </tr>
+                <tr>
+                <td>Virual and Augmented Reality</td>
+                <td>67</td>
+                <td>68</td>
+                <td>B</td>
+                </tr>
+                <tr>
+                <td>Software Engineering</td>
+                <td>60</td>
+                <td>65</td>
+                <td>B</td>
+                </tr>
+                <tr>
+                <td class="spi" colspan="2">SPI</th>
+                <td colspan="2">7.50</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

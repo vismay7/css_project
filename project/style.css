@@ -1,5 +1,6 @@
-* {
+body {
   margin: 0;
+  padding: 0;
 }
 .navbar {
   grid-area: navbar;
@@ -7,11 +8,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1% 0% 1% 0%;
+  height: 10vh;
 }
 .nav_menu {
   display: flex;
-  justify-content: spa;
   width: 35%;
   gap: 4%;
 }
@@ -20,20 +20,15 @@
   color: white;
   font-size: larger;
 }
-iframe {
-  height: 100vh;
-  width: 100%;
-  /* overflow: hidden; */
-}
+
 .middle {
-  /* display: flex; */
-  background-color: pink;
-  height: 100%;
+  display: flex;
+  /* background-color: pink; */
+  height: 89.8vh;
   width: 100%;
   border-top: 1px solid white;
 }
 .menu {
   background-color: #6c747e;
   width: 25%;
-  height: 100%;
 }
